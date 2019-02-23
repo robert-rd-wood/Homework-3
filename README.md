@@ -2,7 +2,7 @@
 Homework 3 - Python
 
 **Contents:**  
-PyBank  
+PyBank/  
 -main.py  
-PyPoll  
+PyPoll/  
 -main.py
