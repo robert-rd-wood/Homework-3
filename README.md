@@ -7,11 +7,16 @@ Homework 3 - Python
   * results.txt  
   * Resources/  
     * budget_data.csv  
-* PyBoss/
+* PyBoss_(Extra_Content)/
   * main.py  
   * results.csv  
   Resources/  
     * employee_list.csv  
+* PyParagraph_(Extra_Content)  
+  * main.py  
+  * raw_data/  
+    * paragraph_1.txt  
+    * paragraph_2.txt  
 * PyPoll/  
   * main.py  
   * results.txt  
