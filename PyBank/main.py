@@ -62,8 +62,10 @@ with open(csvpath, newline='') as csvfile:
     
     # Set Average Change
     averageChange = round(sum(change) / float(len(change)),2)
+
+#--------------------------------------------------------
     
-# Print Results
+# Print Results to terminal
 print("\nFinancial Analysis")
 print("----------------------------")
 print(f"Total Months: {monthCount}")
@@ -71,6 +73,8 @@ print(f"Total: ${Total:,}")
 print(f"Average Change: ${averageChange:,}")
 print(f"Greatest Increase in Profits: {greatestIncreaseMo} (${greatestIncrease:,})")
 print(f"Greatest Decrease in Profits: {greatestDecreaseMo} (${greatestDecrease:,})")
+
+#--------------------------------------------------------
 
 # Create results .txt file
 file = open("results.txt", "w+")
