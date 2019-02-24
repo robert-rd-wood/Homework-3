@@ -36,7 +36,7 @@ with open(csvpath, newline='') as csvfile:
     # CSV reader specifies delimiter and variable that holds contents
     csvreader = csv.reader(csvfile, delimiter=',')
 
-    # Read the header row first (skip this step if there is now header)
+    # Read the header row first
     csv_header = next(csvreader)
     
     # Read each row of data after the header
