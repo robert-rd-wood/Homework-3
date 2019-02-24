@@ -24,8 +24,6 @@ nameSummary = []
 voteSummary = []
 Results = []
 i = 0
-j = 0
-k = 0
 
 # Define path of our .csv file
 csvpath = os.path.join('Resources', 'election_data.csv')
@@ -57,6 +55,9 @@ while i < totalVotes:
         voteSummary.append("1")
     i += 1
 
+# Reset iterator
+i = 0
+
 # Determine winner (use index of the maximum voteSummary value to find the associated name in nameSummary)
 winner = nameSummary[voteSummary.index(max(voteSummary))]
 
@@ -69,10 +70,13 @@ print(f"Total Votes: {totalVotes:,}")
 print("-------------------------")
 
 # Loop to print summaries
-while j < len(nameSummary):
-    print(f"{nameSummary[j]}: {'{:.3%}'.format(voteSummary[j] / totalVotes)} ({voteSummary[j]:,})")
-    j += 1
-    
+while i < len(nameSummary):
+    print(f"{nameSummary[i]}: {'{:.3%}'.format(voteSummary[i] / totalVotes)} ({voteSummary[i]:,})")
+    i += 1
+
+# Reset iterator
+i = 0
+ 
 print("-------------------------")
 print(f"Winner: {winner}")
 print("-------------------------")
@@ -89,9 +93,9 @@ file.write(f"Total Votes: {totalVotes:,}\n")
 file.write("-------------------------\n")
 
 # Loop to print summaries
-while k < len(nameSummary):
-    file.write(f"{nameSummary[k]}: {'{:.3%}'.format(voteSummary[k] / totalVotes)} ({voteSummary[k]:,})\n")
-    k += 1
+while i < len(nameSummary):
+    file.write(f"{nameSummary[i]}: {'{:.3%}'.format(voteSummary[i] / totalVotes)} ({voteSummary[i]:,})\n")
+    i += 1
     
 file.write("-------------------------\n")
 file.write(f"Winner: {winner}\n")
