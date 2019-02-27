@@ -30,7 +30,7 @@ state = []
 i = 0
 
 # Define path of our .csv file
-csvpath = os.path.join('Resources', 'employee_data.csv')
+csvpath = os.path.join('Resources', 'employee_data2.csv')
 
 # With the file open
 with open(csvpath, newline='') as csvfile:
@@ -142,7 +142,7 @@ i = 0
  #--------------------------------------------------------
 
 # Set output file
-output_path = os.path.join("results.csv")
+output_path = os.path.join("results2.csv")
 
 with open(output_path, 'w', newline='') as csvfile:
     
