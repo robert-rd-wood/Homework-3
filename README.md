@@ -1,4 +1,4 @@
-# python-challenge
+# Homework-3
 Homework 3 - Python
 
 **Contents:**  
@@ -9,7 +9,8 @@ Homework 3 - Python
   * results.txt  
 * PyBoss_(Extra_Content)/  
   * Resources/  
-    * employee_list.csv  
+    * employee_list.csv 
+    * employee_list2.csv   
   * main.py  
   * results.csv  
 * PyParagraph_(Extra_Content)
