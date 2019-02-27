@@ -2,7 +2,7 @@
 Homework 3 - Python
 
 **Contents:**  
-* PyBank/  
+* **PyBank/**  
   * Resources/  
     * budget_data.csv  
   * main.py  
