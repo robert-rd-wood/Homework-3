@@ -14,7 +14,7 @@ Homework 3 - Python
   * main.py  
   * results.csv  
   * results2.csv  
-* **PyParagraph_(Extra_Content)**
+* **PyParagraph_(Extra_Content)/**
   * raw_data/  
     * paragraph_1.txt  
     * paragraph_2.txt    
